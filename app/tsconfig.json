@@ -1,0 +1,11 @@
+{
+    "extends": "../tsconfig.base", //This will now have all the option specified in the base file 
+    "compilerOptions": {
+        "removeComments": true
+    },
+
+    // A glob lets you specify a file name pattern for the compiler to match
+    "include": [
+        "./**/*"
+    ]
+}

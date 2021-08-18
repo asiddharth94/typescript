@@ -1,0 +1,21 @@
+{
+    // specifies compiler options
+    "compilerOptions": {
+        "target": "es5", // tells the compiler the output is which version of JS
+        "noUnusedLocals": true, // generate an error if there are unused variables
+        // "outFile": "app.js", // name of the JS file the compiler will output
+        "sourceMap": true,
+        "outDir": "js",
+        "strict": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "watch": true
+    },
+    // commenting below to demo inheritance, 
+    // tsconfig.json added at app(folder) level, which will extend this file
+
+    // specifies array of files to be included in the compilation
+    // "files": [
+    //     "app/app.ts"
+    // ]
+}
